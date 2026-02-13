@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandarin Flashcards HSK 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Latihan HSK 1 🏮</h1>
+        
+        <div id="flashcard-section">
+            <h2>Flashcards</h2>
+            <div class="card" onclick="flipCard()">
+                <div class="card-inner" id="card-inner">
+                    <div class="card-front" id="hanzi">你好</div>
+                    <div class="card-back">
+                        <p id="pinyin">Nǐ hǎo</p>
+                        <p id="meaning">Halo / Apa kabar</p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="nextCard()">Next Card</button>
+        </div>
+
+        <hr>
+
+        <div id="quiz-section">
+            <h2>Quiz Time!</h2>
+            <div id="quiz-container">
+                <p id="question">Apa arti dari "谢谢"?</p>
+                <div id="options">
+                    </div>
+            </div>
+            <div id="score-display">Skor: <span id="current-score">0</span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
