@@ -10,7 +10,7 @@ Halo! Ini adalah proyek website sederhana yang saya buat untuk membantu siapa sa
 
 ## 🚀 Link Demo
 Kamu bisa mencoba websitenya langsung di sini:  
-👉 **[https://prawidayumia.github.io/prawidayumia/](https://prawidayumia.github.io/prawidayumia/)**
+👉 ****https://prawidayumia.github.io/HSK-Flashcard/****
 
 ## 🛠️ Teknologi yang Digunakan
 Proyek ini dibangun menggunakan teknologi web dasar agar ringan dan cepat:
